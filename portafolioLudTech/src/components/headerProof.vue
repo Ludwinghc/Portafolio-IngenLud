@@ -6,7 +6,7 @@
         <span class="fw-bolder text-primary"><p class="h3">Ludwing's Website</p></span>
       </router-link>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler border border-primary"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -14,7 +14,8 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <i class="bi bi-list text-primary"></i>
+        <!-- <span class="navbar-toggler-icon "></span> -->
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
