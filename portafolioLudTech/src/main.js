@@ -7,7 +7,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
 // Importa la raiz de la app
-import App from './inicio.vue'
+import App from './App.vue'
 // importacion del router que se exporta en el index.js
 import router from './router'
 
@@ -18,4 +18,4 @@ app.use(createPinia())
 // usa el router del index.js
 app.use(router)
 // se enlaza con el id del div que aparece en el index.html
-app.mount('#inicio')
+app.mount('#app')

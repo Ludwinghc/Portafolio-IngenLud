@@ -7,7 +7,9 @@ import headerProof from './components/headerProof.vue'
 </script>
 
 <template>
-  <!-- <HomeView /> -->
-  <headerProof />
-  <router-view />
+  <div id="app">
+    <headerProof />
+    <HomeView />
+    <router-view></router-view>
+  </div>
 </template>

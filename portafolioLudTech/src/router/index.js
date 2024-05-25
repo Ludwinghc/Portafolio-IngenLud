@@ -5,6 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 // Importacion de las vistas
 import HomeView from '../views/HomeView.vue'
+import app from '../App.vue'
 import resumeView from '../views/resumeView.vue'
 import proyectsView from '../views/proyectsView.vue'
 
