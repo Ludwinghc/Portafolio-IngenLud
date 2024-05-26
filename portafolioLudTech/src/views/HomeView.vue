@@ -11,26 +11,26 @@
                 <div class="text-uppercase">Design &middot; Development</div>
               </div>
 
-              <div class="fs-3 fw-light text-light">I can help you with the development of</div>
               <h1 class="display-3 fw-bolder mb-5">
-                <span class="text-gradient d-inline">your software projects</span>
+                <span class="text-gradient d-inline">About Me</span>
               </h1>
+              <div class="fs-3 fw-light text-light">
+                <p class="lead fw-light text-light mb-4">
+                  I am Ludwing Hernández Caro, a passionate and highly proactive software developer.
+                  I am in my seventh semester of Software Engineering at Manuela Beltran University.
+                  I consider that responsibility is fundamental in my work. My passionate approach
+                  to my profession translates into a constant commitment to innovation and success
+                  in every challenge I face.
+                </p>
+              </div>
               <div
                 class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3"
               >
                 <router-link
-                  class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                  class="btn btn-outline-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
                   to="/resume"
                   >Resume <i class="bi bi-file-earmark-person-fill"></i
                 ></router-link>
-                <!-- <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/resume"
-                  >Resume
-                  <i class="bi bi-file-earmark-person-fill"></i>
-                </a> -->
-                <!-- <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="/proyectos"
-                  >Projects
-                  <i class="bi bi-file-earmark-code-fill"></i>
-                </a> -->
                 <router-link
                   class="btn btn-outline-secondary btn-lg px-5 py-3 fs-6 fw-bolder"
                   to="/proyects"
@@ -38,6 +38,19 @@
                   Projects
                   <i class="bi bi-file-earmark-code-fill"></i>
                 </router-link>
+              </div>
+              <div class="d-flex justify-content-center fs-1 gap-4">
+                <a class="text-gradient" href="https://www.instagram.com/ludwingtech/"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  class="text-gradient"
+                  href="https:www.linkedin.com/in/ludwing-hernandez-caro-596159237"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a class="text-gradient" href="https://github.com/Ludwinghc"
+                  ><i class="bi bi-github"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -47,7 +60,7 @@
               <div class="profile bg-gradient-primary-to-secondary">
                 <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
                 <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                <img class="profile-img" src="../assets/image/fotoLud.png" alt="..." />
+                <img class="profile-img" src="../assets/image/lud.png" alt="..." />
                 <div class="dots-1">
                   <!-- SVG Dots-->
                   <svg
@@ -362,39 +375,5 @@
         </div>
       </div>
     </header>
-    <!-- About Section-->
-    <section class="bg-dark py-5">
-      <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
-          <div class="col-xxl-8">
-            <div class="text-center my-5">
-              <h2 class="display-5 fw-bolder">
-                <span class="text-gradient d-inline">About Me</span>
-              </h2>
-              <p class="lead fw-light text-light mb-4">
-                I am Ludwing Hernández Caro, a passionate and highly proactive software developer. I
-                am in my seventh semester of Software Engineering at Manuela Beltran University. I
-                consider that responsibility is fundamental in my work. My passionate approach to my
-                profession translates into a constant commitment to innovation and success in every
-                challenge I face.
-              </p>
-              <div class="d-flex justify-content-center fs-2 gap-4">
-                <a class="text-gradient" href="https://www.instagram.com/ludwingtech/"
-                  ><i class="bi bi-instagram"></i
-                ></a>
-                <a
-                  class="text-gradient"
-                  href="https:www.linkedin.com/in/ludwing-hernandez-caro-596159237"
-                  ><i class="bi bi-linkedin"></i
-                ></a>
-                <a class="text-gradient" href="https://github.com/Ludwinghc"
-                  ><i class="bi bi-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 </template>

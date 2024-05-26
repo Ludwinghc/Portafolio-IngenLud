@@ -17,21 +17,27 @@
               class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
             >
               <div class="card-body p-0">
-                <div class="d-flex align-items-center">
-                  <div class="p-5">
-                    <h2 class="fw-bolder">H-Sanity</h2>
-                    <p>
-                      Information system to perform sanitation audits in hotels in the city of
-                      Bogota.
-                    </p>
-                    <p>2023</p>
+                <div class="row">
+                  <div class="col-sm-12 col-md-5 col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <div class="p-5">
+                        <h2 class="fw-bolder">H-Sanity</h2>
+                        <p>
+                          Information system to perform sanitation audits in hotels in the city of
+                          Bogota.
+                        </p>
+                        <p>2023</p>
+                      </div>
+                    </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="../assets/image/hsanity.png"
-                    width="400px"
-                    height="500px"
-                  />
+                  <div class="col-sm-12 col-md-7 col-lg-6 p-4">
+                    <img
+                      class="img-fluid"
+                      src="../assets/image/hsanity.png"
+                      width="400px"
+                      height="500px"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -40,21 +46,27 @@
               class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
             >
               <div class="card-body p-0">
-                <div class="d-flex align-items-center">
-                  <div class="p-5">
-                    <h2 class="fw-bolder">Automatic Door</h2>
-                    <p>
-                      Information system to perform sanitation audits in hotels in the city of
-                      Bogota.
-                    </p>
-                    <p>2021</p>
+                <div class="row align-items-center">
+                  <div class="col-sm-12 col-md-5 col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <div class="p-5">
+                        <h2 class="fw-bolder">Automatic Door</h2>
+                        <p>
+                          Information system to perform sanitation audits in hotels in the city of
+                          Bogota.
+                        </p>
+                        <p>2021</p>
+                      </div>
+                    </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="../assets/image/puerta.jpg"
-                    width="200px"
-                    height="2500px"
-                  />
+                  <div class="col-sm-12 col-md-7 col-lg-6 align-self-center p-4">
+                    <img
+                      class="img-fluid"
+                      src="../assets/image/puerta.jpg"
+                      width="150px"
+                      height="250px"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -63,23 +75,30 @@
               class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
             >
               <div class="card-body p-0">
-                <div class="d-flex align-items-center">
-                  <div class="p-5">
-                    <h2 class="fw-bolder">
-                      Information system for the management of patient care in the emergency room
-                    </h2>
-                    <p>
-                      Information system to improve the registration of patient admission and data
-                      at the hospital.
-                    </p>
-                    <p>2019</p>
+                <div class="row">
+                  <div class="col-sm-12 col-md-5 col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <div class="p-5">
+                        <h2 class="fw-bolder">
+                          Information system for the management of patient care in the emergency
+                          room
+                        </h2>
+                        <p>
+                          Information system to improve the registration of patient admission and
+                          data at the hospital.
+                        </p>
+                        <p>2019</p>
+                      </div>
+                    </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="../assets/image/cardio.png"
-                    width="400px"
-                    height="500px"
-                  />
+                  <div class="col-sm-12 col-md-7 col-lg-6 p-4">
+                    <img
+                      class="img-fluid"
+                      src="../assets/image/cardio.png"
+                      width="400px"
+                      height="500px"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

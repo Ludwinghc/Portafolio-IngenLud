@@ -9,7 +9,6 @@ import headerProof from './components/headerProof.vue'
 <template>
   <div id="app">
     <headerProof />
-    <HomeView />
     <router-view></router-view>
   </div>
 </template>

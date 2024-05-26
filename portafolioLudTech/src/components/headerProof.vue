@@ -42,7 +42,7 @@
           <li class="nav-item">
             <router-link class="nav-link text-secondary" to="/proyects">
               Proyects
-              <i class="bi bi-file-earmark-person-fill"></i>
+              <i class="bi bi-file-earmark-code-fill"></i>
             </router-link>
           </li>
           <!-- <li class="nav-item"><a class="nav-link" href="/locations">Location
