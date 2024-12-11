@@ -8,7 +8,7 @@
             <!-- Header text content-->
             <div class="text-center text-xxl-start">
               <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-                <div class="text-uppercase">Design &middot; Development</div>
+                <div class="text-uppercase">Design &middot; Development &middot; DevOps</div>
               </div>
 
               <h1 class="display-3 fw-bolder mb-5">
@@ -16,11 +16,7 @@
               </h1>
               <div class="fs-3 fw-light text-light">
                 <p class="lead fw-light text-light mb-4">
-                  I am Ludwing Hernández Caro, a passionate and highly proactive software developer.
-                  I am in my seventh semester of Software Engineering at Manuela Beltran University.
-                  I consider that responsibility is fundamental in my work. My passionate approach
-                  to my profession translates into a constant commitment to innovation and success
-                  in every challenge I face.
+                  I am a software developer currently in the final semester of my Software Engineering degree. As a student member of the Colombian Society of Engineers, I am passionate about learning new technological trends and applying my knowledge to innovative projects. I excel in teamwork, taking on leadership roles when necessary, and I am committed to achieving success in every challenge. I enjoy acquiring new skills that enhance my performance as a developer and DevOps professional.
                 </p>
               </div>
               <div

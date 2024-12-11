@@ -40,6 +40,26 @@ const downloadPdf = () => {
               <div class="row align-items-center gx-5">
                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
                   <div class="bg-dark p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2024 - 2025</div>
+                    <div class="small text-light fw-bolder">Junior DevOps Intern</div>
+                    <div class="small text-muted">Banco de Bogotá</div>
+                    <div class="small text-muted">Bogotá, Colombia</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="text-light">
+I implemented automations using technologies such as Power Automate, Copilot Studio, Python, and cloud services, applying the DevOps methodology to optimize processes and enhance operational efficiency.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Experience Card 2-->
+          <div class="card border-primary rounded-4 mb-5 bg-dark">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-dark p-4 rounded-4">
                     <div class="text-primary fw-bolder mb-2">2022 - 2023</div>
                     <div class="small text-light fw-bolder">Junior Web Developer</div>
                     <div class="small text-muted">TST Solutions S.A.S</div>
@@ -56,7 +76,7 @@ const downloadPdf = () => {
               </div>
             </div>
           </div>
-          <!-- Experience Card 2-->
+          <!-- Experience Card 3-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -327,6 +347,29 @@ const downloadPdf = () => {
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
+                      DevOps methodology
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
+                    >
+                      Github Actions
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
+                    >
+                      Power automate & Copilot
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4 bg-dark text-light">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
+                    >
                       Scrum methodology
                     </div>
                   </div>
@@ -360,7 +403,7 @@ const downloadPdf = () => {
                       Backend Development Suite
                     </div>
                   </div>
-                  <div class="col">
+                  <div class="col ">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
@@ -386,14 +429,14 @@ const downloadPdf = () => {
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      HTML
+                      Terraform
                     </div>
                   </div>
                   <div class="col mb-4 mb-md-0">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      CSS
+                      C #
                     </div>
                   </div>
                   <div class="col">
@@ -423,7 +466,7 @@ const downloadPdf = () => {
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Vue.js
+                      My SQL
                     </div>
                   </div>
                 </div>
