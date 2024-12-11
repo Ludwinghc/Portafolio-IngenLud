@@ -41,7 +41,7 @@
                 ></a>
                 <a
                   class="text-gradient"
-                  href="https:www.linkedin.com/in/ludwing-hernandez-caro-596159237"
+                  href="https://www.linkedin.com/in/ludwing-hernandez-caro-596159237"
                   ><i class="bi bi-linkedin"></i
                 ></a>
                 <a class="text-gradient" href="https://github.com/Ludwinghc"
