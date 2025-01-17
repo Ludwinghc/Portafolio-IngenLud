@@ -41,14 +41,21 @@ const downloadPdf = () => {
                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
                   <div class="bg-dark p-4 rounded-4">
                     <div class="text-primary fw-bolder mb-2">2024 - 2025</div>
-                    <div class="small text-light fw-bolder">Junior DevOps Intern</div>
+                    <div class="small text-light fw-bolder">DevOps Intern</div>
                     <div class="small text-muted">Banco de Bogotá</div>
                     <div class="small text-muted">Bogotá, Colombia</div>
                   </div>
                 </div>
                 <div class="col-lg-8">
                   <div class="text-light">
-I implemented automations using technologies such as Power Automate, Copilot Studio, Python, and cloud services, applying the DevOps methodology to optimize processes and enhance operational efficiency.
+                    Implement automations using tools such as Power Automate, Copilot Studio
+                    such as Power Automate, Copilot Studio, and languages such as Python, integrated with
+                    Python, integrated with AWS cloud services such as Lambda, API Gateway, RDS, VPC and EC2.
+                    such as Lambda, API Gateway, RDS, VPC and EC2.
+                    Develop cloud infrastructure using IaC
+                    (Infrastructure as Code) with Terraform.
+                    Configure and implement Continuous Integration and Deployment (CI/CD)
+                    deployment (CI/CD) pipelines using GitHub Actions.
                   </div>
                 </div>
               </div>
@@ -68,9 +75,10 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
                 </div>
                 <div class="col-lg-8">
                   <div class="text-light">
-                    To gather and analyze information in meetings with clients for the respective
-                    requested developments. Software development with PHP and Vue Js. Provide
-                    support to previously developed software.
+                    Perform requirements analysis for the requested developments.
+                    requested.
+                    Develop software using PHP and Vue Js.
+                    Provide support to previously developed software.
                   </div>
                 </div>
               </div>
@@ -148,7 +156,66 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
         <!-- Courses Section-->
         <section>
           <h2 class="text-primary fw-bolder mb-4">Courses</h2>
-          <!-- Education Card 1-->
+                    <!-- Education Card 1-->
+                    <div class="card border-primary rounded-4 mb-5 bg-dark">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-dark p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2025</div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder text-light">AWS</div>
+                      <div class="small text-muted">Bogotá, Colombia</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Studen's</div>
+                      <div class="small text-muted">
+                        AWS Cloud Technical Essentials
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 text-light">
+                  <div>
+                    The AWS Cloud Technical Essentials course has provided you with the knowledge to understand AWS terminology and concepts,
+                    as well as security and identity management measures with IAM. You have learned to differentiate key services such as Amazon EC2,
+                    AWS Lambda and Amazon ECS, as well as understand database and storage options in AWS, such as Amazon RDS, DynamoDB and S3.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <!-- Education Card 2-->
+                    <div class="card border-primary rounded-4 mb-5 bg-dark">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-dark p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2025</div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder text-light">IBM</div>
+                      <div class="small text-muted">Bogotá, Colombia</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Studen's</div>
+                      <div class="small text-muted">
+                        Getting Started with Git and GitHub
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 text-light">
+                  <div>
+                    The Getting Started with Git and GitHub course has taught you the basics of version control,
+                    its application in collaborative coding and DevOps, and how to use Git and GitHub to manage repositories,
+                    branches and pull requests. In addition, you have learned how to collaborate on team projects and build your portfolio
+                     through open source projects on GitHub.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Education Card 3-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -178,7 +245,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
               </div>
             </div>
           </div>
-          <!-- Education Card 2-->
+          <!-- Education Card 4-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -205,7 +272,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
               </div>
             </div>
           </div>
-          <!-- Education Card 3-->
+          <!-- Education Card 5-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -231,7 +298,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
               </div>
             </div>
           </div>
-          <!-- Education Card 4-->
+          <!-- Education Card 6-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -258,7 +325,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
               </div>
             </div>
           </div>
-          <!-- Education Card 5-->
+          <!-- Education Card 7-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -292,7 +359,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
               </div>
             </div>
           </div>
-          <!-- Education Card 6-->
+          <!-- Education Card 8-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -347,7 +414,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      DevOps methodology
+                      DevOps
                     </div>
                   </div>
                   <div class="col mb-4 mb-md-0">
@@ -384,7 +451,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      UML Design
+                      IaC
                     </div>
                   </div>
                 </div>
@@ -393,21 +460,21 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Frontend Development
+                      AWS
                     </div>
                   </div>
                   <div class="col mb-4 mb-md-0">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Backend Development Suite
+                      Backend Development 
                     </div>
                   </div>
                   <div class="col ">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      User Design
+                      Databases Development
                     </div>
                   </div>
                 </div>
@@ -436,7 +503,7 @@ I implemented automations using technologies such as Power Automate, Copilot Stu
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      C #
+                      Java
                     </div>
                   </div>
                   <div class="col">
