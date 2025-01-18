@@ -13,12 +13,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-
-      - name: Delete FEATURE branches
+      - name: Delete feature branches
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-           git fetch --prune
+          git fetch --prune
           for branch in $(git branch -r | grep 'origin/feature/' | sed 's/origin\///'); do
             git push https://x-access-token:${GH_TOKEN}@github.com/Ludwinghc/Portafolio-IngenLud.git --delete "$branch" || true
           done
