@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Delete feature branches
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git fetch --prune
           for branch in $(git branch -r | grep 'origin/feature/' | sed 's/origin\///'); do
