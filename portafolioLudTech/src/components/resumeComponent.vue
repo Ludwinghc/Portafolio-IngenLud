@@ -48,14 +48,7 @@ const downloadPdf = () => {
                 </div>
                 <div class="col-lg-8">
                   <div class="text-light">
-                    Implement automations using tools such as Power Automate, Copilot Studio
-                    such as Power Automate, Copilot Studio, and languages such as Python, integrated with
-                    Python, integrated with AWS cloud services such as Lambda, API Gateway, RDS, VPC and EC2.
-                    such as Lambda, API Gateway, RDS, VPC and EC2.
-                    Develop cloud infrastructure using IaC
-                    (Infrastructure as Code) with Terraform.
-                    Configure and implement Continuous Integration and Deployment (CI/CD)
-                    deployment (CI/CD) pipelines using GitHub Actions.
+                    Implement automation using tools such as Power Automate, Copilot Studio, and programming languages like Python, integrated with AWS cloud services such as Lambda, API Gateway, RDS, VPC, and EC2. Contribute to the development of an Internal Developer Platform (IDP) using the Backstage framework. Develop cloud infrastructure through Infrastructure as Code (IaC) with Terraform. Configure and implement continuous integration and deployment (CI/CD) pipelines using GitHub Actions.
                   </div>
                 </div>
               </div>
