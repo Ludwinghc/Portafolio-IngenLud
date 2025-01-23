@@ -45,12 +45,6 @@
               <i class="bi bi-file-earmark-code-fill"></i>
             </router-link>
           </li>
-          <!-- <li class="nav-item"><a class="nav-link" href="/locations">Location
-                    <i class="bi bi-geo-alt-fill"></i>
-                </a></li>
-                <li class="nav-item"><a class="nav-link" href="/Characters">My Favorite Songs
-                    <i class="bi bi-file-music-fill"></i>
-                </a></li> -->
         </ul>
       </div>
     </div>
