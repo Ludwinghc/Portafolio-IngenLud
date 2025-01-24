@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3">
     <div class="container px-5">
       <router-link class="navbar-brand" to="/">
-        <span class="fw-bolder text-primary"><p class="h3">Ludwing's Website</p></span>
+        <span class="fw-bolder fs-2 text-primary">Ludwing's Website</span>
       </router-link>
       <button
         class="navbar-toggler border border-primary"
@@ -24,7 +24,7 @@
               >Home
               <i class="bi bi-house-door-fill"></i>
             </a> -->
-            <router-link class="nav-link text-secondary" to="/">
+            <router-link class="nav-link text-secondary fs-5" to="/">
               Home
               <i class="bi bi-house-door-fill"></i>
             </router-link>
@@ -34,13 +34,13 @@
               >Resume
               <i class="bi bi-file-earmark-person-fill"></i>
             </a> -->
-            <router-link class="nav-link text-secondary" to="/resume">
+            <router-link class="nav-link text-secondary fs-5" to="/resume">
               Resume
               <i class="bi bi-file-earmark-person-fill"></i>
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link text-secondary" to="/proyects">
+            <router-link class="nav-link text-secondary fs-5" to="/proyects">
               Proyects
               <i class="bi bi-file-earmark-code-fill"></i>
             </router-link>

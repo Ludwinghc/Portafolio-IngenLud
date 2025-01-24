@@ -16,11 +16,13 @@
               </h1>
               <div class="fs-3 fw-light text-light">
                 <p class="lead fw-light text-light mb-4">
-                  I am a software engineer with 3 years of experience, currently in the last semester of my degree in
-                  Software Engineering. I am a student member of the Colombian Society of Engineers, I am passionate about learning
-                  about new technological trends and apply my knowledge in innovative projects. I stand out for
-                  my ability to work in a team, assuming leadership roles when necessary, and for my commitment to success in every challenge.
-                  to success in every challenge. I enjoy acquiring new skills that strengthen my performance as a software engineer.
+                  I am a software engineer with 3 years of experience, currently in the last
+                  semester of my degree in Software Engineering. I am a student member of the
+                  Colombian Society of Engineers, I am passionate about learning about new
+                  technological trends and apply my knowledge in innovative projects. I stand out
+                  for my ability to work in a team, assuming leadership roles when necessary, and
+                  for my commitment to success in every challenge. to success in every challenge. I
+                  enjoy acquiring new skills that strengthen my performance as a software engineer.
                 </p>
               </div>
               <div
