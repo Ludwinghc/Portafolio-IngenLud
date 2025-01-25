@@ -1,0 +1,23 @@
+name: Action Test
+
+on:
+    push:
+        branches:
+            - Qa
+jobs:
+    Test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v3
+              with:
+                  token: ${{ secrets.GH_TOKEN }}
+            - name: Check el router-view en app.vue
+              run: |
+                if grep -q "<router-view>" src/App.vue; then
+                    echo "✅ El router-view está en App.vue"
+                else
+                    echo "❌ El router-view no está en App.vue"
+                    exit 1
+                fi
+                
