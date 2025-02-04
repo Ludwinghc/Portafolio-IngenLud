@@ -1,3 +1,7 @@
+<script setup>
+import Footer from '../components/footerComponent.vue'
+</script>
+
 <template>
   <main>
     <!-- About the photo and title -->
@@ -8,7 +12,7 @@
             <!-- Header text content-->
             <div class="text-center text-xxl-start">
               <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-                <div class="text-uppercase">Design &middot; Development &middot; DevOps</div>
+                <div class="text-uppercase">Development &middot; DevOps</div>
               </div>
 
               <h1 class="display-3 fw-bolder mb-5">
@@ -16,13 +20,13 @@
               </h1>
               <div class="fs-3 fw-light text-light">
                 <p class="lead fw-light text-light mb-4">
-                  I am a software engineer with 3 years of experience, currently in the last
-                  semester of my degree in Software Engineering. I am a student member of the
-                  Colombian Society of Engineers, I am passionate about learning about new
-                  technological trends and apply my knowledge in innovative projects. I stand out
-                  for my ability to work in a team, assuming leadership roles when necessary, and
-                  for my commitment to success in every challenge. to success in every challenge. I
-                  enjoy acquiring new skills that strengthen my performance as a software engineer.
+                  I work as a software engineer with 1 year of experience and am currently in my
+                  final semester of Software Engineering. I am a student member of the Colombian
+                  Society of Engineers and passionate about learning new technological trends and
+                  applying my knowledge to innovative projects. I stand out for my ability to work
+                  in teams, taking on leadership roles when necessary, and for my commitment to
+                  success in every challenge. I enjoy acquiring new skills that strengthen my
+                  performance as a software engineer.
                 </p>
               </div>
               <div
@@ -41,7 +45,7 @@
                   <i class="bi bi-file-earmark-code-fill"></i>
                 </router-link>
               </div>
-
+              <Footer></Footer>
             </div>
           </div>
           <div class="col-xxl-7">
@@ -367,6 +371,7 @@
             </div>
           </div>
         </div>
+        
       </div>
     </header>
   </main>
