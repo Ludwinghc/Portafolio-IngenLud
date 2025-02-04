@@ -1,26 +1,10 @@
 <script setup>
-import { ref, computed } from 'vue'
-import saveAs from 'file-saver'
-const pdf = ref('../assets/pdf/HVLudwing.pdf')
-
-const downloadPdf = () => {
-  fetch(pdf.value)
-    .then((Response) => response.blob())
-    .then((blob) => saveAs(blob, 'HVLudwing.pdf'))
-}
+import ResumeTitle from './resumeTitleComponent.vue'
 </script>
 
 <template>
-  <router-view />
   <div class="container px-5 my-5">
-    <div class="text-center mb-5">
-      <h1 class="display-5 fw-bolder mb-0">
-        <span class="text-gradient d-inline"
-          >Resume
-          <i class="bi bi-file-earmark-person-fill"></i>
-        </span>
-      </h1>
-    </div>
+    <ResumeTitle></ResumeTitle>
     <div class="row gx-5 justify-content-center">
       <div class="col-lg-11 col-xl-9 col-xxl-8">
         <!-- Experience Section-->
@@ -48,7 +32,13 @@ const downloadPdf = () => {
                 </div>
                 <div class="col-lg-8">
                   <div class="text-light">
-                    Implement automation using tools such as Power Automate, Copilot Studio, and programming languages like Python, integrated with AWS cloud services such as Lambda, API Gateway, RDS, VPC, and EC2. Contribute to the development of an Internal Developer Platform (IDP) using the Backstage framework. Develop cloud infrastructure through Infrastructure as Code (IaC) with Terraform. Configure and implement continuous integration and deployment (CI/CD) pipelines using GitHub Actions.
+                    Implement automation using tools such as Power Automate, Copilot Studio, and
+                    programming languages like Python, integrated with AWS cloud services such as
+                    Lambda, API Gateway, RDS, VPC, and EC2. Contribute to the development of an
+                    Internal Developer Platform (IDP) using the Backstage framework. Develop cloud
+                    infrastructure through Infrastructure as Code (IaC) with Terraform. Configure
+                    and implement continuous integration and deployment (CI/CD) pipelines using
+                    GitHub Actions.
                   </div>
                 </div>
               </div>
@@ -68,10 +58,8 @@ const downloadPdf = () => {
                 </div>
                 <div class="col-lg-8">
                   <div class="text-light">
-                    Perform requirements analysis for the requested developments.
-                    requested.
-                    Develop software using PHP and Vue Js.
-                    Provide support to previously developed software.
+                    Perform requirements analysis for the requested developments. requested. Develop
+                    software using PHP and Vue Js. Provide support to previously developed software.
                   </div>
                 </div>
               </div>
@@ -149,8 +137,8 @@ const downloadPdf = () => {
         <!-- Courses Section-->
         <section>
           <h2 class="text-primary fw-bolder mb-4">Courses</h2>
-                    <!-- Education Card 1-->
-                    <div class="card border-primary rounded-4 mb-5 bg-dark">
+          <!-- Education Card 1-->
+          <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -162,24 +150,24 @@ const downloadPdf = () => {
                     </div>
                     <div class="fst-italic">
                       <div class="small text-muted">Studen's</div>
-                      <div class="small text-muted">
-                        AWS Cloud Technical Essentials
-                      </div>
+                      <div class="small text-muted">AWS Cloud Technical Essentials</div>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-8 text-light">
                   <div>
-                    The AWS Cloud Technical Essentials course has provided you with the knowledge to understand AWS terminology and concepts,
-                    as well as security and identity management measures with IAM. You have learned to differentiate key services such as Amazon EC2,
-                    AWS Lambda and Amazon ECS, as well as understand database and storage options in AWS, such as Amazon RDS, DynamoDB and S3.
+                    The AWS Cloud Technical Essentials course has provided you with the knowledge to
+                    understand AWS terminology and concepts, as well as security and identity
+                    management measures with IAM. You have learned to differentiate key services
+                    such as Amazon EC2, AWS Lambda and Amazon ECS, as well as understand database
+                    and storage options in AWS, such as Amazon RDS, DynamoDB and S3.
                   </div>
                 </div>
               </div>
             </div>
           </div>
-                    <!-- Education Card 2-->
-                    <div class="card border-primary rounded-4 mb-5 bg-dark">
+          <!-- Education Card 2-->
+          <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
@@ -191,18 +179,17 @@ const downloadPdf = () => {
                     </div>
                     <div class="fst-italic">
                       <div class="small text-muted">Studen's</div>
-                      <div class="small text-muted">
-                        Getting Started with Git and GitHub
-                      </div>
+                      <div class="small text-muted">Getting Started with Git and GitHub</div>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-8 text-light">
                   <div>
-                    The Getting Started with Git and GitHub course has taught you the basics of version control,
-                    its application in collaborative coding and DevOps, and how to use Git and GitHub to manage repositories,
-                    branches and pull requests. In addition, you have learned how to collaborate on team projects and build your portfolio
-                     through open source projects on GitHub.
+                    The Getting Started with Git and GitHub course has taught you the basics of
+                    version control, its application in collaborative coding and DevOps, and how to
+                    use Git and GitHub to manage repositories, branches and pull requests. In
+                    addition, you have learned how to collaborate on team projects and build your
+                    portfolio through open source projects on GitHub.
                   </div>
                 </div>
               </div>
@@ -460,10 +447,10 @@ const downloadPdf = () => {
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Backend Development 
+                      Backend Development
                     </div>
                   </div>
-                  <div class="col ">
+                  <div class="col">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
