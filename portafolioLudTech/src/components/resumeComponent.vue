@@ -476,14 +476,14 @@ import ResumeTitle from './resumeTitleComponent.vue'
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Terraform
+                      Django
                     </div>
                   </div>
                   <div class="col mb-4 mb-md-0">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Java
+                      Vue Js
                     </div>
                   </div>
                   <div class="col">
