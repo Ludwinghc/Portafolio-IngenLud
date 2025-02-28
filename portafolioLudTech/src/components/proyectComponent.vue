@@ -21,9 +21,39 @@
                   <div class="col-sm-12 col-md-5 col-lg-6">
                     <div class="d-flex align-items-center">
                       <div class="p-5">
+                        <h2 class="fw-bolder">EduBot</h2>
+                        <p>
+                          A chatbot with the purpose of automating administrative tasks for the
+                          software engineering career at Manuela Beltran University.
+                        </p>
+                        <p>2024</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-7 col-lg-6 p-4">
+                    <img
+                      class="img-fluid"
+                      src="../assets/image/edubot.png"
+                      width="400px"
+                      height="500px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Project Card 2 -->
+            <div
+              class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
+            >
+              <div class="card-body p-0">
+                <div class="row">
+                  <div class="col-sm-12 col-md-5 col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <div class="p-5">
                         <h2 class="fw-bolder">Virtual Closet</h2>
                         <p>
-                          A web application for registering clothing items, creating outfits filtered by season, and managing a calendar to schedule each outfit.
+                          A web application for registering clothing items, creating outfits
+                          filtered by season, and managing a calendar to schedule each outfit.
                         </p>
                         <p>2024</p>
                       </div>
@@ -40,7 +70,7 @@
                 </div>
               </div>
             </div>
-            <!-- Project Card 2 -->
+            <!-- Project Card 3 -->
             <div
               class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
             >
@@ -69,7 +99,7 @@
                 </div>
               </div>
             </div>
-            <!-- Project Card 3 -->
+            <!-- Project Card 4 -->
             <div
               class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
             >
@@ -80,8 +110,8 @@
                       <div class="p-5">
                         <h2 class="fw-bolder">Automatic Door</h2>
                         <p>
-                          
-A mobile app designed to control the automatic opening of home doors using voice commands and Bluetooth connectivity.
+                          A mobile app designed to control the automatic opening of home doors using
+                          voice commands and Bluetooth connectivity.
                         </p>
                         <p>2021</p>
                       </div>
@@ -98,7 +128,7 @@ A mobile app designed to control the automatic opening of home doors using voice
                 </div>
               </div>
             </div>
-            <!-- Project Card 4-->
+            <!-- Project Card 5-->
             <div
               class="card overflow-hidden border border-primary bg-dark text-light rounded-4 mb-5"
             >
