@@ -93,19 +93,18 @@ import ResumeTitle from './resumeTitleComponent.vue'
               <div class="row align-items-center gx-5">
                 <div class="col text-center text-lg-start mb-4 mb-lg-0">
                   <div class="bg-light p-4 rounded-4 bg-dark">
-                    <div class="text-secondary fw-bolder mb-2">2020 - Present</div>
+                    <div class="text-secondary fw-bolder mb-2">2020 - 2025</div>
                     <div class="mb-2">
                       <div class="small fw-bolder text-light">Manuela Beltran University</div>
                       <div class="small text-muted">Bogotá, Colombia</div>
                     </div>
                     <div class="fst-italic">
-                      <div class="small text-muted">Student</div>
-                      <div class="small text-muted">Software Engineering</div>
+                      <div class="small text-muted">Software Engineer</div>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-8 text-light">
-                  <div>I am currently in my seventh semester of software engineering.</div>
+                  <div>Graduated of software engineering.</div>
                 </div>
               </div>
             </div>
@@ -145,6 +144,73 @@ import ResumeTitle from './resumeTitleComponent.vue'
                   <div class="bg-dark p-4 rounded-4">
                     <div class="text-primary fw-bolder mb-2">2025</div>
                     <div class="mb-2">
+                      <div class="small fw-bolder text-light">Oracle</div>
+                      <div class="small text-muted">Bogotá, Colombia</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Certificate</div>
+                      <div class="small text-muted">
+                        Oracle Cloud Infrastructure 2025 Certified Foundations Associate
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 text-light">
+                  <div>
+                    The Oracle Cloud Infrastructure (OCI) Foundations certification is for
+                    individuals who intend to demonstrate fundamental knowledge of public cloud
+                    services provided by Oracle Cloud Infrastructure (OCI). This certification is
+                    for candidates with non-technical backgrounds, such as those involved in selling
+                    or procuring cloud solutions, as well as those with a technical background who
+                    want to validate their foundational-level knowledge around core OCI services.
+                    This exam does not require any hands-on technical experience and is not a
+                    prerequisite for taking any other OCI certifications.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Education Card 1-->
+          <div class="card border-primary rounded-4 mb-5 bg-dark">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-dark p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2025</div>
+                    <div class="mb-2">
+                      <div class="small fw-bolder text-light">Oracle</div>
+                      <div class="small text-muted">Bogotá, Colombia</div>
+                    </div>
+                    <div class="fst-italic">
+                      <div class="small text-muted">Certificate</div>
+                      <div class="small text-muted">
+                        Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 text-light">
+                  <div>
+                    The Oracle Cloud Infrastructure (OCI) AI Foundations certification is designed
+                    to introduce learners to the fundamental concepts of artificial intelligence
+                    (AI) and machine learning (ML), with a specific focus on the practical
+                    application of these technologies within the Oracle Cloud Infrastructure. This
+                    course is ideal for beginners and provides an accessible entry point for those
+                    looking to enhance their understanding of AI and ML without the requirement of
+                    prior extensive technical experience.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Education Card 1-->
+          <div class="card border-primary rounded-4 mb-5 bg-dark">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-dark p-4 rounded-4">
+                    <div class="text-primary fw-bolder mb-2">2025</div>
+                    <div class="mb-2">
                       <div class="small fw-bolder text-light">AWS</div>
                       <div class="small text-muted">Bogotá, Colombia</div>
                     </div>
@@ -165,37 +231,7 @@ import ResumeTitle from './resumeTitleComponent.vue'
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Education Card 2-->
-          <div class="card border-primary rounded-4 mb-5 bg-dark">
-            <div class="card-body p-5">
-              <div class="row align-items-center gx-5">
-                <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                  <div class="bg-dark p-4 rounded-4">
-                    <div class="text-primary fw-bolder mb-2">2025</div>
-                    <div class="mb-2">
-                      <div class="small fw-bolder text-light">IBM</div>
-                      <div class="small text-muted">Bogotá, Colombia</div>
-                    </div>
-                    <div class="fst-italic">
-                      <div class="small text-muted">Studen's</div>
-                      <div class="small text-muted">Getting Started with Git and GitHub</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-8 text-light">
-                  <div>
-                    The Getting Started with Git and GitHub course has taught you the basics of
-                    version control, its application in collaborative coding and DevOps, and how to
-                    use Git and GitHub to manage repositories, branches and pull requests. In
-                    addition, you have learned how to collaborate on team projects and build your
-                    portfolio through open source projects on GitHub.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Education Card 3-->
+          </div>          <!-- Education Card 3-->
           <div class="card border-primary rounded-4 mb-5 bg-dark">
             <div class="card-body p-5">
               <div class="row align-items-center gx-5">
@@ -401,14 +437,14 @@ import ResumeTitle from './resumeTitleComponent.vue'
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Github Actions
+                      CI/CD
                     </div>
                   </div>
                   <div class="col">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Power automate & Copilot
+                      Power automate
                     </div>
                   </div>
                 </div>
@@ -447,14 +483,14 @@ import ResumeTitle from './resumeTitleComponent.vue'
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Backend Development
+                      Oracle Cloud
                     </div>
                   </div>
                   <div class="col">
                     <div
                       class="d-flex align-items-center rounded-4 p-3 h-100 border border-primary"
                     >
-                      Databases Development
+                      Backend Development
                     </div>
                   </div>
                 </div>
