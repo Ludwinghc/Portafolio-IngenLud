@@ -1,5 +1,6 @@
 <script setup>
 import Footer from '../components/footerComponent.vue'
+import pdf from '../assets/pdf/HVLudwingHernandez.pdf'
 </script>
 
 <template>
@@ -49,6 +50,11 @@ import Footer from '../components/footerComponent.vue'
                   Projects
                   <i class="bi bi-file-earmark-code-fill"></i>
                 </router-link>
+                <a :href="pdf" download="Ludwing_Hernandez_CV.pdf"
+                  class="btn btn-outline-primary btn-lg px-5 py-3 fs-6 fw-bolder ms-sm-3">
+                  Download CV
+                  <i class="bi bi-download"></i>
+                </a>
               </div>
               <Footer></Footer>
             </div>
