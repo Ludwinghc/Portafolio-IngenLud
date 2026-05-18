@@ -1,17 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Portafolio-IngenLud
+  name: portafolio-ingenlud
+  title: Portafolio IngenLud
   description: Website del portafolio personal de Ludwing
   annotations:
     github.com/project-slug: Ludwinghc/Portafolio-IngenLud
     backstage.io/techdocs-ref: dir:.
-    backstage.io/source-location: url:https://github.com/Ludwinghc/Portafolio-IngenLud/tree/master/
+    backstage.io/source-location: url:https://github.com/Ludwinghc/Portafolio-IngenLud/tree/main/
   tags:
-    - TypeScript
+    - typescript
     - frontend
-    - Node JS
+    - nodejs
 spec:
-  type: Website
+  type: website
   lifecycle: production
-  owner: Ludwinghc
+  owner: user:default/ludwinghc
