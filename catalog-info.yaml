@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: Ludwinghc/Portafolio-IngenLud
     backstage.io/techdocs-ref: dir:.
-    backstage.io/source-location: url:https://github.com/Ludwinghc/Portafolio-IngenLud/tree/main/
+    backstage.io/source-location: url:https://github.com/Ludwinghc/Portafolio-IngenLud/tree/master/
   tags:
     - typescript
     - frontend
