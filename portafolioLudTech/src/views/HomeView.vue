@@ -67,7 +67,7 @@ import pdf from '../assets/pdf/HVLudwingHernandez.pdf'
                 <!-- Watch a tutorial on how to do this on YouTube (link)-->
                 <img
                   class="profile-img"
-                  src="../assets/image/Profile-Ludwing-Hernandez.png"
+                  src="../assets/image/Ludwing.svg"
                   alt="..."
                 />
                 <div class="dots-1">
